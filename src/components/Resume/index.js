@@ -13,7 +13,7 @@ function Resume() {
         <Container>
             <Row className='justify-content-center skillContainer'>
                 <Col className='skills' lg={6}>
-                    <GoBrowser color="#00a6fb" size={60} />
+                    
                     <div className='size4'>Front-end Proficiencies</div>
                     <ul className='mt-4'> 
                     {backEndSkills.map((skill, i) => (
@@ -25,7 +25,6 @@ function Resume() {
                 </Col>
 
                 <Col className='skills' lg={6}>
-                    <BsTerminal color="#00a6fb" size={60} />
                     <div className='size4'>Back-end Proficiencies</div>
                     <ul className='mt-4'>
                     {frontEndSkills.map((skill, i) => (

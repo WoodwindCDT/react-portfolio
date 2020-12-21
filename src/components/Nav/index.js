@@ -9,6 +9,11 @@ function Navbr({currentPage, setPage}) {
 
     return (
         <header className="flex-row px-1 mb-3">
+
+            <h2 className='align'>
+                <p className='size1'>Cristian Turbeville</p>
+            </h2>
+
             <Navbar collapseOnSelect expand="lg" variant="dark" className='mb-3'>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" className='ml-auto' />
                 <Navbar.Collapse id="responsive-navbar-nav">
@@ -20,10 +25,6 @@ function Navbr({currentPage, setPage}) {
                     </Nav>
                 </Navbar.Collapse>
             </Navbar> 
-            <h2 className='align'>
-                <p className='size2'>Cristian Turbeville</p>
-            </h2>
-            
         </header>
     );
 }

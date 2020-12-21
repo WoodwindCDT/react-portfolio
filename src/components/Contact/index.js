@@ -36,7 +36,7 @@ function Contact() {
     return (
         <>
             <div className='mb-3 underline'><h1>Contact Me!</h1></div>
-            <p className='mb-3'>Howdy! If you'd like to contact me, reach me at my<a rel="noopener noreferrer" target='_blank' href="mailto:cristian@lonestarlogic.net">Email</a></p>
+            <p className='mb-3'>Howdy! If you'd like to contact me, reach me at my <a rel="noopener noreferrer" target='_blank' href="mailto:cristian@lonestarlogic.net">Email</a></p>
             <Container>
                 <Row>
                     <Col lg={6}>
